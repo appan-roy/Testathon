@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-27T20:39:42 IST" name="Default suite" finished-at="2023-10-27T20:40:31 IST" duration-ms="49409">
+    <groups>
+    </groups>
+    <test started-at="2023-10-27T20:39:42 IST" name="Default test" finished-at="2023-10-27T20:40:31 IST" duration-ms="49409">
+      <class name="com.qa.testathon.ProductPriceComparisonAndCheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testathon.ProductPriceComparisonAndCheckoutTest@4cc451f2]" started-at="2023-10-27T20:39:42 IST" name="setUp" finished-at="2023-10-27T20:39:44 IST" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getProducts()[pri:0, instance:com.qa.testathon.ProductPriceComparisonAndCheckoutTest@4cc451f2]" started-at="2023-10-27T20:39:44 IST" name="getProducts" finished-at="2023-10-27T20:39:46 IST" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProducts -->
+        <test-method signature="pickRandomProductFromApiResponse()[pri:0, instance:com.qa.testathon.ProductPriceComparisonAndCheckoutTest@4cc451f2]" started-at="2023-10-27T20:39:46 IST" name="pickRandomProductFromApiResponse" finished-at="2023-10-27T20:39:46 IST" depends-on-methods="com.qa.testathon.ProductPriceComparisonAndCheckoutTest.getProducts" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickRandomProductFromApiResponse -->
+        <test-method signature="searchProduct()[pri:0, instance:com.qa.testathon.ProductPriceComparisonAndCheckoutTest@4cc451f2]" started-at="2023-10-27T20:39:46 IST" name="searchProduct" finished-at="2023-10-27T20:39:54 IST" depends-on-methods="com.qa.testathon.ProductPriceComparisonAndCheckoutTest.pickRandomProductFromApiResponse" duration-ms="8515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="comparePriceAndCheckout()[pri:0, instance:com.qa.testathon.ProductPriceComparisonAndCheckoutTest@4cc451f2]" started-at="2023-10-27T20:39:54 IST" name="comparePriceAndCheckout" finished-at="2023-10-27T20:40:07 IST" depends-on-methods="com.qa.testathon.ProductPriceComparisonAndCheckoutTest.searchProduct" duration-ms="13193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparePriceAndCheckout -->
+        <test-method is-config="true" signature="tesrDown()[pri:0, instance:com.qa.testathon.ProductPriceComparisonAndCheckoutTest@4cc451f2]" started-at="2023-10-27T20:40:07 IST" name="tesrDown" finished-at="2023-10-27T20:40:31 IST" duration-ms="23854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDown -->
+      </class> <!-- com.qa.testathon.ProductPriceComparisonAndCheckoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
